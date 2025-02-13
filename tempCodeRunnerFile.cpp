@@ -1,7 +1,5 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-    int age;
-    cout << "Your age is: " << age << endl;
-}
+ i = 1;
+    do{
+        cout << "Ashraf" << i << endl ;
+        i++ ; 
+    }while(i<=6)
