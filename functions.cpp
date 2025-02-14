@@ -10,14 +10,24 @@ using namespace std;
 // parameter functions 
 // non-parameter function 
 
-void printName(string name) {
-    cout << name ;
+// void printName(string name) {
+//     cout << name ;
+// }
+
+int sum (int num1,int num2) {
+    int num3 = num1 + num2 ;
+    return num3;
 }
 
 int main(){
-    string name ;
-    // cin >> name ; in this it only reads furst white space so the output will Mohd ;
-    getline(cin, name);
-    printName(name);
+    // string name ;
+    // // cin >> name ; in this it only reads furst white space so the output will Mohd ;
+    // getline(cin, name);
+    // printName(name);
+
+    int num1 ,num2 ;
+    cin >> num1 >> num2 ;
+    int totl = sum(num1,num2);
+    cout << totl ; 
     return 0;
 }
