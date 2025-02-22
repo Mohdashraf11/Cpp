@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 
@@ -22,4 +23,14 @@ int main(){
         i++ ; 
     }while(i<=1);
 
+=======
+#include <iostream>
+using namespace std;
+
+int main(){
+    int i;
+    for (i = 1; i <= 8; i++){
+        cout << "Ashraf" << i << endl;
+    }
+>>>>>>> a5d44c6156aa214ef05e8791a54c43df54590114
 }
